@@ -21,9 +21,7 @@ export default class Navbar extends Component {
 	render() {
 		return (
 			<nav className="navbar-items">
-				<h1 className="navbar-logo">
-					React <i className="fa fa-bars" />
-				</h1>
+				<h1 className="navbar-logo">H &amp; S Auto</h1>
 				<div className="menu-icon" onClick={this.handleClick}>
 					<i className={this.state.clicked ? 'fas fa-times' : 'fa fa-bars'} />
 				</div>
