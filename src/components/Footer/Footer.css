@@ -39,9 +39,9 @@
 	background-position: 0 100%;
 }
 
-.fa {
+.link > .fa {
 	font-size: 0.8rem;
-	padding-right: 3px;
+	padding-right: 5px;
 }
 
 .link:hover .fa-circle-o-notch {
