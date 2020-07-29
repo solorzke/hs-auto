@@ -14,7 +14,9 @@ export default function Review(props) {
 			</div>
 			<div className="description">
 				<div className="name-review">
-					<h2 style={{ paddingRight: 10 }}>{props.fullname}</h2>
+					<h2 style={{ paddingRight: 10 }} className="fullname">
+						{props.fullname}
+					</h2>
 					<Stars stars={props.stars} />
 				</div>
 				<div className="des-text">

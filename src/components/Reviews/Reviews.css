@@ -21,6 +21,8 @@
 	flex: 1;
 	display: flexbox;
 	text-align: center;
+	justify-content: center;
+	align-self: center;
 }
 
 .description {
@@ -40,4 +42,10 @@
 .des-text {
 	flex: 1;
 	display: flex;
+}
+
+@media screen and (max-width: 500px) {
+	.description {
+		font-size: .8rem;
+	}
 }
