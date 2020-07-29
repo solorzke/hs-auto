@@ -60,6 +60,10 @@
 	display: none;
 }
 
+Button {
+	display: none;
+}
+
 @media screen and (max-width: 960px) {
 	.navbar-items {
 		position: relative;
@@ -75,10 +79,11 @@
 		left: -100%;
 		opacity: 1;
 		transition: all 0.5s ease;
+		justify-content: center;
 	}
 
 	.nav-menu.active {
-		background-color: #6668f4;
+		background-color: #fe6847;
 		left: 0;
 		opacity: 1;
 		transition: all 0.5s ease;
@@ -93,8 +98,9 @@
 	}
 
 	.nav-links:hover {
-		background-color: #7577f8;
+		background-color: #fff;
 		border-radius: 0;
+		color: #fe6847;
 	}
 
 	.navbar-logo {
@@ -120,7 +126,7 @@
 	}
 
 	.nav-links-mobile {
-		display: block;
+		display: none;
 		text-align: center;
 		padding: 1.5rem;
 		margin: 2rem auto;

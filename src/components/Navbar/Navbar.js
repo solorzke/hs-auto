@@ -23,7 +23,7 @@ export default class Navbar extends Component {
 			<nav className="navbar-items">
 				<h1 className="navbar-logo">HS Auto</h1>
 				<div className="menu-icon" onClick={this.handleClick}>
-					<i className={this.state.clicked ? 'fas fa-times' : 'fa fa-bars'} />
+					<i className={this.state.clicked ? 'fa fa-times' : 'fa fa-bars'} />
 				</div>
 				<ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
 					{MenuItems.map((item, index) => {
