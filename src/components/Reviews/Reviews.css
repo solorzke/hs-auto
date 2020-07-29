@@ -1,0 +1,43 @@
+.reviews-container {
+	display: block;
+	padding: 0px 10%;
+	background-color: #262626;
+	color: #fff;
+}
+
+.fa-star {
+	color: goldenrod;
+}
+
+.review {
+	flex-direction: row;
+	display: flex;
+	width: 100%;
+	padding: 1.7rem 0;
+}
+
+.avi {
+	position: static;
+	flex: 1;
+	display: flexbox;
+	text-align: center;
+}
+
+.description {
+	flex: 9;
+	display: flex;
+	flex-direction: column;
+}
+
+.name-review {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	flex: 1;
+}
+
+.des-text {
+	flex: 1;
+	display: flex;
+}
