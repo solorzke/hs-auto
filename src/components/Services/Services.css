@@ -1,7 +1,7 @@
 .services-container {
 	display: flex;
 	flex-direction: row;
-	padding: 0px 10%;
+	padding: 0 10%;
 }
 
 .summary-container {
@@ -69,4 +69,57 @@ a {
 	align-items: center;
 	display: flex;
 	flex: 1;
+}
+
+.item-title {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+.item-subtitle {
+	font-size: 10px;
+	color: #000;
+}
+
+@media screen and (max-width: 960px) and (min-width: 410px) {
+	.services-container {
+		display: flex;
+		flex-direction: column;
+		padding: 0px 10%;
+	}
+
+	.row {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.item-title {
+		font-size: 20px;
+		text-decoration: none;
+		color: #000;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.services-container {
+		display: flex;
+		flex-direction: column;
+		padding: 0px 10%;
+	}
+
+	.row {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.item-title {
+		font-size: 15px;
+		text-decoration: none;
+		color: #000;
+	}
 }

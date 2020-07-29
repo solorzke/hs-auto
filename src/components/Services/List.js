@@ -10,8 +10,8 @@ export default function List() {
 					<a href="#">
 						<i className="fa fa-wrench icon" />
 						<div className="row-text">
-							<p style={styles.title}>Auto Repair</p>
-							<p style={styles.subtitle}>High quality repair service</p>
+							<p className="item-title">Auto Repair</p>
+							<p className="item-subtitle">High quality repair service</p>
 						</div>
 					</a>
 				</div>
@@ -19,8 +19,8 @@ export default function List() {
 					<a href="#">
 						<i className="fa fa-car icon" />
 						<div className="row-text">
-							<p style={styles.title}>Auto Body</p>
-							<p style={styles.subtitle}>We can improve upon your car's quality</p>
+							<p className="item-title">Auto Body</p>
+							<p className="item-subtitle">We can improve upon your car's quality</p>
 						</div>
 					</a>
 				</div>
@@ -30,8 +30,8 @@ export default function List() {
 					<a href="#">
 						<i className="fa fa-plus-square icon" />
 						<div className="row-text">
-							<p style={styles.title}>Emergency Services</p>
-							<p style={styles.subtitle}>We're on our way to help you</p>
+							<p className="item-title">Emergency Services</p>
+							<p className="item-subtitle">We're on our way to help you</p>
 						</div>
 					</a>
 				</div>
@@ -39,8 +39,8 @@ export default function List() {
 					<a href="#">
 						<i className="fa fa-battery-full icon" />
 						<div className="row-text">
-							<p style={styles.title}>Battery Delivery Service</p>
-							<p style={styles.subtitle}>Delivery to your car</p>
+							<p className="item-title">Battery Delivery Service</p>
+							<p className="item-subtitle">Delivery to your car</p>
 						</div>
 					</a>
 				</div>
@@ -48,16 +48,3 @@ export default function List() {
 		</div>
 	);
 }
-
-const styles = {
-	title: {
-		fontSize: 20,
-		textDecoration: 'none',
-		color: '#000'
-	},
-
-	subtitle: {
-		fontSize: 10,
-		color: '#000'
-	}
-};
