@@ -12,7 +12,13 @@ export default function About() {
 		<div>
 			<Navbar />
 			<Banner title={'About Us'} subtitle={'Learn more about who we are at HS Auto & Trucking Services'} />
-			<Article image={ArticleText[0].image} paragraphs={ArticleText[0].paragraphs} title={ArticleText[0].title} />
+			<Article
+				image={ArticleText[0].image}
+				height={400}
+				width={400}
+				paragraphs={ArticleText[0].paragraphs}
+				title={ArticleText[0].title}
+			/>
 			<Partners />
 			<Footer />
 		</div>

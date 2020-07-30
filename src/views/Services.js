@@ -16,21 +16,29 @@ export default function Services() {
 			/>
 			<Article
 				image={ArticleText[1].autorepair.image}
+				height={250}
+				width={400}
 				title={ArticleText[1].autorepair.title}
 				paragraphs={ArticleText[1].autorepair.paragraphs}
 			/>
 			<Article
 				image={ArticleText[1].autobody.image}
+				height={250}
+				width={400}
 				title={ArticleText[1].autobody.title}
 				paragraphs={ArticleText[1].autobody.paragraphs}
 			/>
 			<Article
 				image={ArticleText[1].battery.image}
+				height={250}
+				width={400}
 				title={ArticleText[1].battery.title}
 				paragraphs={ArticleText[1].battery.paragraphs}
 			/>
 			<Article
 				image={ArticleText[1].emergency.image}
+				height={250}
+				width={400}
 				title={ArticleText[1].emergency.title}
 				paragraphs={ArticleText[1].emergency.paragraphs}
 			/>

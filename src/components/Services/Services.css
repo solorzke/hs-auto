@@ -63,7 +63,7 @@
 	padding-right: 1rem;
 }
 
-a {
+.service-link {
 	text-decoration: none;
 	justify-content: start;
 	align-items: center;

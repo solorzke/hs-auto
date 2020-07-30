@@ -5,7 +5,7 @@ export default function Article(props) {
 	return (
 		<div className="article-container">
 			<div className="img-col">
-				<img src={props.image} height="400" width="400" />
+				<img src={props.image} height={props.height} width={props.width} />
 			</div>
 			<div className="article-col">
 				<h1 className="article-heading">
