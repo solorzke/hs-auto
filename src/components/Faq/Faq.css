@@ -1,0 +1,15 @@
+.question {
+	color: #fe6847;
+	padding: 10px 0;
+}
+
+.question-box {
+	padding: 20px;
+	font-size: 1.1rem;
+}
+
+@media screen and (max-width: 845px) {
+	.question-box {
+		font-size: 0.8rem;
+	}
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
 
 export default function Navigation() {
@@ -57,10 +58,10 @@ export default function Navigation() {
 					<i className="fa fa-circle-o-notch" />
 					Schedule An Appt.
 				</a>
-				<a className="link" href="#">
+				<Link className="link" to="/help">
 					<i className="fa fa-circle-o-notch" />
 					Support Center
-				</a>
+				</Link>
 			</div>
 			<div className="col">
 				<h2 className="heading">Contact Us</h2>
