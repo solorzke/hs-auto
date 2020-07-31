@@ -9,57 +9,57 @@ export default function Navigation() {
 			<div className="col">
 				<h2 className="heading">Services</h2>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Oil Change
 				</a>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Brake Replacement
 				</a>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Tires Check
 				</a>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Engine Installation
 				</a>
 			</div>
 			<div className="col">
 				<h2 className="heading">More Services</h2>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Body Work
 				</a>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Car Repair
 				</a>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Vehicle Towing
 				</a>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Emergency
 				</a>
 			</div>
 			<div className="col">
 				<h2 className="heading">Assistance</h2>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Battery Service
 				</a>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Car Diagnostics
 				</a>
 				<a className="link" href="#">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Schedule An Appt.
 				</a>
 				<Link className="link" to="/help">
-					<i className="fa fa-circle-o-notch" />
+					<i className="fa fa-chevron-circle-right" />
 					Support Center
 				</Link>
 			</div>

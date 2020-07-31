@@ -6,7 +6,6 @@ export default class Statement extends Component {
 	render() {
 		return (
 			<div>
-				<div className="hr" />
 				<div className="statement-container">
 					<div className="wrench-block">
 						<div className="overlay">

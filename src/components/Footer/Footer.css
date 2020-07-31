@@ -45,7 +45,7 @@
 	padding-right: 5px;
 }
 
-.link:hover .fa-circle-o-notch {
+.link:hover .fa-chevron-circle-right {
 	animation-name: spin;
 	animation-duration: 5000ms;
 	animation-iteration-count: infinite;
