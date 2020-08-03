@@ -10,51 +10,51 @@ export default function Navigation() {
 				<h2 className="heading">Services</h2>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Oil Change
+					Engine Examination
 				</Link>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Brake Replacement
+					Tire Check
 				</Link>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Tires Check
+					Towing
 				</Link>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Engine Installation
+					Body Work
 				</Link>
 			</div>
 			<div className="col">
 				<h2 className="heading">More Services</h2>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Body Work
+					Vehicle Repair
 				</Link>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Car Repair
+					Oil Change
 				</Link>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Vehicle Towing
+					Brake Tuning
 				</Link>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Emergency
+					Battery Service
 				</Link>
 			</div>
 			<div className="col">
 				<h2 className="heading">Assistance</h2>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Battery Service
+					Emergency
 				</Link>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
 					Car Diagnostics
 				</Link>
-				<Link className="link" to="/services">
+				<Link className="link" to="/contact">
 					<i className="fa fa-chevron-circle-right" />
 					Schedule An Appt.
 				</Link>
