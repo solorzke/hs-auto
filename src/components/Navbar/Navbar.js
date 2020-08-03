@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
 import { Button } from './Button';
 import './Navbar.css';
+import Logo from './hs.png';
 
 export default class Navbar extends Component {
 	constructor(props) {
@@ -22,7 +23,9 @@ export default class Navbar extends Component {
 	render() {
 		return (
 			<nav className="navbar-items">
-				<h1 className="navbar-logo">HS Auto</h1>
+				<Link className="navbar-logo" to="/">
+					<img src={Logo} height="60" width="65" />
+				</Link>
 				<div className="menu-icon" onClick={this.handleClick}>
 					<i className={this.state.clicked ? 'fa fa-times' : 'fa fa-bars'} />
 				</div>
