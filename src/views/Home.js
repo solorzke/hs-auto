@@ -5,6 +5,7 @@ import Services from '../components/Services/Services';
 import Reviews from '../components/Reviews/Reviews';
 import MissionStatement from '../components/MissionStatement/Statement';
 import Footer from '../components/Footer/Footer';
+import Contact from '../components/ContactUs/Contact';
 import '../App.css';
 
 export default class HomePage extends Component {
@@ -16,6 +17,7 @@ export default class HomePage extends Component {
 				<Services />
 				<Reviews />
 				<MissionStatement />
+				<Contact />
 				<Footer />
 			</div>
 		);

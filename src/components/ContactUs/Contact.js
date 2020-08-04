@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import 'font-awesome/css/font-awesome.min.css';
+import Maps from '../Maps/Maps';
 
 export default function Contact() {
 	return (
@@ -10,7 +11,7 @@ export default function Contact() {
 					<h1 className="contact-title">Contact Us</h1>
 					<p>
 						<i className="fa fa-phone-square" />
-						551-580-7286
+						(551)-580-7286
 					</p>
 					<p>
 						<i className="fa fa-envelope" />
@@ -35,16 +36,7 @@ export default function Contact() {
 				</div>
 			</div>
 			<div className="maps-container">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96706.9699476669!2d-74.25983737353037!3d40.75998337932602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2543f1b51e8d9%3A0xe5339b4d44d66c4b!2sH%20%26%20S%20Auto%20%26%20Truck%20Services!5e0!3m2!1sen!2sus!4v1596148708178!5m2!1sen!2sus"
-					width="100%"
-					height="450"
-					frameborder="0"
-					style={{ border: 0, padding: 10 }}
-					allowfullscreen=""
-					aria-hidden="false"
-					tabindex="0"
-				/>
+				<Maps width={'100%'} height={450} />
 			</div>
 		</div>
 	);
