@@ -31,6 +31,9 @@ export default class Reviews extends Component {
 					description={'Overall great experience. Fixed my car quick and was very honest. Highly recommend.'}
 					stars={5}
 				/>
+				<div className="arrow-div">
+					<div class="arrow-down" />
+				</div>
 			</div>
 		);
 	}
