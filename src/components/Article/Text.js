@@ -41,12 +41,9 @@ export const ArticleText = [
 			title: 'Auto Body',
 			image: Installation,
 			paragraphs: [
-				`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-				`Duis aute irure dolor 
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+				`If your car is due for a maintenance check of any kind, whether it'd be anything from oil change, bulb replacements, brake system flushes, 
+				to tire alignments, wiper blade replacements, PCV valve changes, or hoses, you can trust us to bring your vehicle 
+				in and peform all the basic checks required, identify any impending concerns or issues, and make sure your car comes out better that it did coming in.`
 			]
 		},
 
@@ -67,12 +64,13 @@ export const ArticleText = [
 			title: 'Emergency & Towing Service',
 			image: Tow,
 			paragraphs: [
-				`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-				`Duis aute irure dolor 
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+				`Car won't start because of electrical, weather or collision impacts? Worry not, our towing specialists at HS Auto will be able
+				to bring back your car to our shop and begin identifying the cause of the issue and how to solve it. We guarantee that with our
+				services, we will be able to put your vehicle back on the road as quickly as possible at an affordable price. To contact us,
+				call us at: (551)-580-7286`,
+				`At HS Auto, we feature professionally-maintained trucking and vehicle services with certified and skilled drivers who dedicate themselves to providing
+				you with the best quality service in the area.
+				`
 			]
 		}
 	}
