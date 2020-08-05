@@ -28,12 +28,10 @@ export const ArticleText = [
 			title: 'Auto Repair',
 			image: Repair,
 			paragraphs: [
-				`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-				`Duis aute irure dolor 
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+				`You can relax when you bring your car to our shop for repairs. We use our experience to address any repairs the car needs to you.
+				Whether one of your sensors needs replacing, or the transmission system is out of whack, we'll fix the problem well. `,
+				`Thanks to our great business partners that provide us with quality parts, we can also make sure your car lasts longer than before, you can forget
+				about parts failure around here.`
 			]
 		},
 
@@ -47,16 +45,16 @@ export const ArticleText = [
 			]
 		},
 
-		battery: {
-			title: 'Battery & Car Diagnostics',
+		diagnostics: {
+			title: 'Car Diagnostics',
 			image: Battery,
 			paragraphs: [
-				`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-				`Duis aute irure dolor 
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+				`Cars are equipped with some of the most complex computer systems available to the public. These systems are what help us understand 
+				everything that is occurring with our vehicle via sensors.`,
+
+				`Bring your vehicle over to our shop and with our excellent diagnostic equipment, we can quickly identify the problem and figure out how 
+				to resolve this issue. We make sure that all of the car's sensors and lights are working in proper order. We'll gladly answer any questions you may have
+				about this process.`
 			]
 		},
 

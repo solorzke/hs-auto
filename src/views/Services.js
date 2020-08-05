@@ -29,11 +29,11 @@ export default function Services() {
 				paragraphs={ArticleText[1].autobody.paragraphs}
 			/>
 			<Article
-				image={ArticleText[1].battery.image}
+				image={ArticleText[1].diagnostics.image}
 				height={250}
 				width={400}
-				title={ArticleText[1].battery.title}
-				paragraphs={ArticleText[1].battery.paragraphs}
+				title={ArticleText[1].diagnostics.title}
+				paragraphs={ArticleText[1].diagnostics.paragraphs}
 			/>
 			<Article
 				image={ArticleText[1].emergency.image}
