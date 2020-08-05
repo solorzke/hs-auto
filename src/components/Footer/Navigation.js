@@ -48,11 +48,11 @@ export default function Navigation() {
 				<h2 className="heading">Assistance</h2>
 				<Link className="link" to="/services">
 					<i className="fa fa-chevron-circle-right" />
-					Emergency
-				</Link>
-				<Link className="link" to="/services">
-					<i className="fa fa-chevron-circle-right" />
 					Car Diagnostics
+				</Link>
+				<Link className="link" to="/sitemap">
+					<i className="fa fa-chevron-circle-right" />
+					Site Map
 				</Link>
 				<Link className="link" to="/contact">
 					<i className="fa fa-chevron-circle-right" />

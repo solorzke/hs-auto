@@ -88,4 +88,9 @@ p > .fa {
 		font-size: 1.5rem;
 		background-color: #46494c;
 	}
+
+	.info-container > p {
+		padding: 20px 0;
+		font-size: 1.2rem;
+	}
 }
