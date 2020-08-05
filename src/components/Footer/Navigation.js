@@ -67,7 +67,7 @@ export default function Navigation() {
 				<h2 className="heading">Contact Us</h2>
 				<Link className="link" to="/contact">
 					<i className="fa fa-phone-square" />
-					551-580-7286
+					(551)-580-7286
 				</Link>
 				<Link className="link" to="/contact">
 					<i className="fa fa-envelope" />
