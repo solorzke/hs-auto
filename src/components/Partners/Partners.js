@@ -4,36 +4,21 @@ import AutoZone from './auto-zone.jpg';
 import AAP from './aap.svg';
 import PartsAuthority from './parts-authority.jpg';
 import WilsonAuto from './wilson-auto-parts.jpg';
+import Partner from './Partner';
 
 export default function Partners() {
 	return (
 		<div className="partners-container">
 			<h1 className="partners-heading">Our Partners</h1>
 			<div className="partners-row">
-				<div className="img-container">
-					<a href="https://www.autozone.com/" target="_blank" rel="noopener">
-						<img src={AutoZone} height="100" width="300" />
-					</a>
-				</div>
-				<div className="img-container">
-					<a href="https://shop.advanceautoparts.com/" target="_blank" rel="noopener">
-						<img src={AAP} height="100" width="400" />
-					</a>
-				</div>
-				<div className="img-container">
-					<a href="https://partsauthority.com/" target="_blank" rel="noopener">
-						<img src={PartsAuthority} height="100" width="300" />
-					</a>
-				</div>
-				<div className="img-container">
-					<a
-						href="http://www.autopartsstoresusa.com/newjerseyautopartstores.htm"
-						target="_blank"
-						rel="noopener"
-					>
-						<img src={WilsonAuto} height="100" width="250" />
-					</a>
-				</div>
+				<Partner link="https://www.autozone.com/" img={AutoZone} alt="Auto Zone" />
+				<Partner link="https://shop.advanceautoparts.com/" img={AAP} alt="Advance Auto Parts" />
+				<Partner link="https://partsauthority.com/" img={PartsAuthority} alt="Parts Authority" />
+				<Partner
+					link="http://www.autopartsstoresusa.com/newjerseyautopartstores.htm"
+					img={WilsonAuto}
+					alt="Wilson Auto"
+				/>
 			</div>
 			<p className="partners-paragraph">
 				We are partnered with some of the best auto parts suppliers in the Garden State whose affordable prices

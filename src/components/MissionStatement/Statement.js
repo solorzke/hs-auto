@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './Statement.css';
 import Wrench from './wrench.gif';
+import Zoom from 'react-reveal/Zoom';
 
 export default class Statement extends Component {
 	render() {
 		return (
-			<div>
+			<Zoom>
 				<div className="statement-container">
 					<div className="wrench-block">
 						<div className="overlay">
@@ -43,7 +44,7 @@ export default class Statement extends Component {
 						</p>
 					</div>
 				</div>
-			</div>
+			</Zoom>
 		);
 	}
 }
