@@ -7,7 +7,7 @@ export default function Article(props) {
 		<Zoom>
 			<div className="article-container">
 				<div className="img-col">
-					<img src={props.image} height={props.height} width={props.width} />
+					<img src={props.image} height={props.height} width={props.width} alt="cars" />
 				</div>
 				<div className="article-col">
 					<h1 className="article-heading">

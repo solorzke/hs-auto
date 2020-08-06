@@ -27,10 +27,10 @@ export default function Contact() {
 					</p>
 				</div>
 				<div className="social-media-container">
-					<a href="#" rel="noopener" target="_blank">
+					<a href="www.facebook.com" rel="noopener noreferrer" target="_blank">
 						<i className="fa fa-facebook-official" />
 					</a>
-					<a href="#" rel="noopener" target="_blank">
+					<a href="mailto:email@email.com" rel="noopener noreferrer" target="_blank">
 						<i className="fa fa-envelope" />
 					</a>
 				</div>

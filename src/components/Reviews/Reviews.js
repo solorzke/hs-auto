@@ -32,7 +32,7 @@ export default class Reviews extends Component {
 					stars={5}
 				/>
 				<div className="arrow-div">
-					<div class="arrow-down" />
+					<div className="arrow-down" />
 				</div>
 			</div>
 		);

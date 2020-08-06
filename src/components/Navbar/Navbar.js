@@ -27,7 +27,7 @@ export default class Navbar extends Component {
 				<Header />
 				<nav className="navbar-items">
 					<Link className="navbar-logo" to="/">
-						<img src={Logo} height="60" width="65" />
+						<img src={Logo} height="60" width="65" alt="logo" />
 					</Link>
 					<div className="menu-icon" onClick={this.handleClick}>
 						<i className={this.state.clicked ? 'fa fa-times' : 'fa fa-bars'} />
