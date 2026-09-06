@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# HS Auto &amp; Trucking Services
 
-## Available Scripts
+Static informational website for **HS Auto &amp; Trucking Services** (also styled H&amp;S Auto &amp; Truck Services), a family-run auto and truck repair shop in Kearny, NJ that has been serving the area since 2010.
 
-In the project directory, you can run:
+**Live site:** https://hs-auto-trucking-services.web.app/
 
-### `yarn start`
+## About the site
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is a marketing/informational website — there is no login, database, or backend business logic. It exists to tell customers who the shop is, what it does, where to find it, and how to get in touch. Content is hard-coded in the React components; updating the site means editing that content and redeploying.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Pages
 
-### `yarn test`
+| Route | Purpose |
+| --- | --- |
+| `/` | Home — banner, mission statement, service highlights, customer reviews, partners |
+| `/about` | Company background and history |
+| `/services` | Detailed descriptions of Auto Repair, Auto Body, Car Diagnostics, and Emergency &amp; Towing |
+| `/contact` | Phone, email, hours, address, and an embedded map |
+| `/help` | Frequently asked questions (hours, payment methods, financing, languages, services offered) |
+| `/sitemap` | Simple list of site links |
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Business details (as published on the site)
 
-### `yarn build`
+- **Address:** 250 Davis Ave, Kearny, NJ 07032 (across from the Kearny High School football field)
+- **Phone:** (551) 580-7286
+- **Hours:** Mon–Fri 8am–6pm, Sat 8am–3pm
+- **Services:** oil &amp; filter changes, battery replacement and delivery, brakes, tire alignment, auto body work, engine and transmission installations, mufflers, computer diagnostics, ignition interlock (install/calibrate/reset/remove), emergency towing, and work on company/fleet vehicles
+- **Payments:** cash, check, and major credit cards; interest-free financing available
+- **Languages:** English, Spanish, Portuguese
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech stack
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [Create React App](https://github.com/facebook/create-react-app) (`react-scripts` 3.4.1), React 16
+- `react-router-dom` for client-side routing
+- `react-reveal` / `react-slideshow-image` for animation and the banner carousel
+- Font Awesome for icons
+- Hosted on **Firebase Hosting** (project `solorzke-websites`, site `hs-auto-trucking-services`)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Local development
 
-### `yarn eject`
+```bash
+yarn install
+yarn start        # dev server at http://localhost:3000
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Build
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`react-scripts` 3.4.1 predates modern Node's OpenSSL, so the legacy provider flag is required on Node 17+:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+NODE_OPTIONS=--openssl-legacy-provider yarn build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The production bundle is written to `build/`.
 
-## Learn More
+## Deploy
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Deploys go to Firebase Hosting. Requires the Firebase CLI and access to the `solorzke-websites` project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+NODE_OPTIONS=--openssl-legacy-provider yarn build
+firebase deploy --only hosting
+```
 
-### Code Splitting
+Hosting configuration lives in `firebase.json` (SPA rewrite of all routes to `index.html`) and `.firebaserc` (default project).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+> The repo also contains a small Express server (`server/server.js`) left over from a previous Heroku deployment. It is not used by Firebase Hosting and can be removed if it's no longer needed elsewhere.
