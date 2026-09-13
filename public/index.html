@@ -2,55 +2,6 @@
 <html lang="en">
   <head>
 
-<!-- Consent Mode v2 bootstrap - must stay above every other script on the page. -->
-<script>
-(function () {
-  var ID = 'G-CG81V6GN71';
-  window.CMP_CONFIG = {
-    gaId: ID,
-    siteName: "HS Auto Trucking Services",
-    theme: "light",
-    accent: "#fe6847",
-    accentFg: "#ffffff",
-    fontFamily: "'Antic Slab', Georgia, serif"
-  };
-
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  window.gtag = gtag;
-
-  // Re-read a previous decision synchronously so returning visitors who opted
-  // in are not measured late, and everyone else starts fully denied.
-  var ok = false;
-  try {
-    var s = JSON.parse(localStorage.getItem('cmp_consent_v1'));
-    ok = !!(s && s.v === 1 && s.categories && s.categories.analytics);
-  } catch (e) {}
-
-  gtag('consent', 'default', {
-    ad_storage: 'denied',
-    ad_user_data: 'denied',
-    ad_personalization: 'denied',
-    personalization_storage: 'denied',
-    analytics_storage: ok ? 'granted' : 'denied',
-    functionality_storage: 'granted',
-    security_storage: 'granted',
-    wait_for_update: 500
-  });
-
-  gtag('js', new Date());
-  gtag('config', ID);
-
-  // gtag.js itself is withheld until consent exists; cmp.js injects it on opt-in.
-  if (ok) {
-    var t = document.createElement('script');
-    t.async = true;
-    t.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
-    document.head.appendChild(t);
-  }
-})();
-</script>
-<script src="/cmp.js" defer></script>
     <meta charset="utf-8" />
     <link rel="icon" href="./hs.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
