@@ -155,3 +155,21 @@
 	padding-left: 10px;
 	color: #fe6847;
 }
+
+/* Opens the cookie preferences dialog (see public/cmp.js). */
+.cookie-settings {
+	/* Navbar.css hides every <button> with a bare element selector; opt back in. */
+	display: inline-block;
+	background: none;
+	border: 0;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+	opacity: 0.75;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.cookie-settings:hover {
+	opacity: 1;
+}

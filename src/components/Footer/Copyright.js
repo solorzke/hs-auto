@@ -10,6 +10,11 @@ export default function Copyright(props) {
 					Designed By: Solorzke Designs
 				</a>
 			</p>
+			<p>
+				<button type="button" data-cmp-open className="cookie-settings">
+					Cookie settings
+				</button>
+			</p>
 		</div>
 	);
 }
